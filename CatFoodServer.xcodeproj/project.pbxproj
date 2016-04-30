@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C539DB21CD4B651009E6798 /* CatFoodServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C539DB11CD4B651009E6798 /* CatFoodServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C539DDA1CD4B968009E6798 /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C539DD71CD4B874009E6798 /* PostgreSQL.framework */; };
+		4C539DDB1CD4B96C009E6798 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C539DC01CD4B7F0009E6798 /* PerfectLib.framework */; };
+		4C539DF31CD4C69D009E6798 /* CatName.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 4C539DF21CD4C69D009E6798 /* CatName.mustache */; };
+		4C539DFE1CD4CA85009E6798 /* CatName.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C539DF21CD4C69D009E6798 /* CatName.mustache */; };
+		4C539E061CD4CC84009E6798 /* PerfectHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */; };
+		4C539E131CD4CD48009E6798 /* CatNameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C539E121CD4CD48009E6798 /* CatNameHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C539DBF1CD4B7F0009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8F289BE1BD53CF000367249;
+			remoteInfo = PerfectLibOSX;
+		};
+		4C539DC11CD4B7F0009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8F289C81BD53CF000367249;
+			remoteInfo = PerfectLibOSXTests;
+		};
+		4C539DC31CD4B7F0009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8F28A381BD5633100367249;
+			remoteInfo = PerfectLibiOS;
+		};
+		4C539DCB1CD4B82E009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F842421B1BD966FC001EFF66;
+			remoteInfo = "PerfectServer FastCGI";
+		};
+		4C539DCD1CD4B82E009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8E752DF1BDA8A7600BFC36A;
+			remoteInfo = "PerfectServer HTTP";
+		};
+		4C539DCF1CD4B82E009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F88B06811BDD48DD001FD0CD;
+			remoteInfo = "PerfectServer HTTP App";
+		};
+		4C539DD61CD4B874009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8F28A6E1BD57D8900367249;
+			remoteInfo = PostgreSQL;
+		};
+		4C539DD81CD4B874009E6798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8F28A781BD57D8A00367249;
+			remoteInfo = PostgreSQLTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C539DFD1CD4CA71009E6798 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = webroot;
+			dstSubfolderSpec = 16;
+			files = (
+				4C539DFE1CD4CA85009E6798 /* CatName.mustache in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C539DAE1CD4B651009E6798 /* CatFoodServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatFoodServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C539DB11CD4B651009E6798 /* CatFoodServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatFoodServer.h; sourceTree = "<group>"; };
+		4C539DB31CD4B651009E6798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PerfectLib.xcodeproj; path = ../../Perfect/PerfectLib/PerfectLib.xcodeproj; sourceTree = "<group>"; };
+		4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PerfectServer.xcodeproj; path = ../../Perfect/PerfectServer/PerfectServer.xcodeproj; sourceTree = "<group>"; };
+		4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PostgreSQL.xcodeproj; path = ../../Perfect/Connectors/PostgreSQL/PostgreSQL.xcodeproj; sourceTree = "<group>"; };
+		4C539DF21CD4C69D009E6798 /* CatName.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CatName.mustache; path = Mustache/CatName.mustache; sourceTree = "<group>"; };
+		4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectHandlers.swift; sourceTree = "<group>"; };
+		4C539E121CD4CD48009E6798 /* CatNameHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatNameHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C539DAA1CD4B651009E6798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C539DDB1CD4B96C009E6798 /* PerfectLib.framework in Frameworks */,
+				4C539DDA1CD4B968009E6798 /* PostgreSQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C539DA41CD4B651009E6798 = {
+			isa = PBXGroup;
+			children = (
+				4C539DB01CD4B651009E6798 /* CatFoodServer */,
+				4C539DAF1CD4B651009E6798 /* Products */,
+				4C539E1E1CD4F4B1009E6798 /* dependencies */,
+			);
+			sourceTree = "<group>";
+		};
+		4C539DAF1CD4B651009E6798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DAE1CD4B651009E6798 /* CatFoodServer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C539DB01CD4B651009E6798 /* CatFoodServer */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DB11CD4B651009E6798 /* CatFoodServer.h */,
+				4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */,
+				4C539E121CD4CD48009E6798 /* CatNameHandler.swift */,
+				4C539DFC1CD4C98E009E6798 /* Mustache */,
+				4C539DB31CD4B651009E6798 /* Info.plist */,
+			);
+			path = CatFoodServer;
+			sourceTree = "<group>";
+		};
+		4C539DBA1CD4B7F0009E6798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DC01CD4B7F0009E6798 /* PerfectLib.framework */,
+				4C539DC21CD4B7F0009E6798 /* PerfectLibOSXTests.xctest */,
+				4C539DC41CD4B7F0009E6798 /* PerfectLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C539DC61CD4B82E009E6798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DCC1CD4B82E009E6798 /* perfectserverfcgi */,
+				4C539DCE1CD4B82E009E6798 /* perfectserverhttp */,
+				4C539DD01CD4B82E009E6798 /* PerfectServer HTTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C539DD21CD4B874009E6798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DD71CD4B874009E6798 /* PostgreSQL.framework */,
+				4C539DD91CD4B874009E6798 /* PostgreSQLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C539DFC1CD4C98E009E6798 /* Mustache */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DF21CD4C69D009E6798 /* CatName.mustache */,
+			);
+			name = Mustache;
+			sourceTree = "<group>";
+		};
+		4C539E1E1CD4F4B1009E6798 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */,
+				4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */,
+				4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C539DAB1CD4B651009E6798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C539DB21CD4B651009E6798 /* CatFoodServer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C539DAD1CD4B651009E6798 /* CatFoodServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C539DB61CD4B651009E6798 /* Build configuration list for PBXNativeTarget "CatFoodServer" */;
+			buildPhases = (
+				4C539DA91CD4B651009E6798 /* Sources */,
+				4C539DAA1CD4B651009E6798 /* Frameworks */,
+				4C539DAB1CD4B651009E6798 /* Headers */,
+				4C539DAC1CD4B651009E6798 /* Resources */,
+				4C539DFD1CD4CA71009E6798 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatFoodServer;
+			productName = CatFoodServer;
+			productReference = 4C539DAE1CD4B651009E6798 /* CatFoodServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C539DA51CD4B651009E6798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anatoly Rosencrantz";
+				TargetAttributes = {
+					4C539DAD1CD4B651009E6798 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4C539DA81CD4B651009E6798 /* Build configuration list for PBXProject "CatFoodServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C539DA41CD4B651009E6798;
+			productRefGroup = 4C539DAF1CD4B651009E6798 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C539DBA1CD4B7F0009E6798 /* Products */;
+					ProjectRef = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
+				},
+				{
+					ProductGroup = 4C539DC61CD4B82E009E6798 /* Products */;
+					ProjectRef = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
+				},
+				{
+					ProductGroup = 4C539DD21CD4B874009E6798 /* Products */;
+					ProjectRef = 4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C539DAD1CD4B651009E6798 /* CatFoodServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C539DC01CD4B7F0009E6798 /* PerfectLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectLib.framework;
+			remoteRef = 4C539DBF1CD4B7F0009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DC21CD4B7F0009E6798 /* PerfectLibOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PerfectLibOSXTests.xctest;
+			remoteRef = 4C539DC11CD4B7F0009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DC41CD4B7F0009E6798 /* PerfectLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectLib.framework;
+			remoteRef = 4C539DC31CD4B7F0009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DCC1CD4B82E009E6798 /* perfectserverfcgi */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = perfectserverfcgi;
+			remoteRef = 4C539DCB1CD4B82E009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DCE1CD4B82E009E6798 /* perfectserverhttp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = perfectserverhttp;
+			remoteRef = 4C539DCD1CD4B82E009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DD01CD4B82E009E6798 /* PerfectServer HTTP.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "PerfectServer HTTP.app";
+			remoteRef = 4C539DCF1CD4B82E009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DD71CD4B874009E6798 /* PostgreSQL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PostgreSQL.framework;
+			remoteRef = 4C539DD61CD4B874009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C539DD91CD4B874009E6798 /* PostgreSQLTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PostgreSQLTests.xctest;
+			remoteRef = 4C539DD81CD4B874009E6798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C539DAC1CD4B651009E6798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C539DF31CD4C69D009E6798 /* CatName.mustache in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C539DA91CD4B651009E6798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C539E131CD4CD48009E6798 /* CatNameHandler.swift in Sources */,
+				4C539E061CD4CC84009E6798 /* PerfectHandlers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C539DB41CD4B651009E6798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C539DB51CD4B651009E6798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C539DB71CD4B651009E6798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CatFoodServer/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rosencrantz.CatFoodServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C539DB81CD4B651009E6798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CatFoodServer/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rosencrantz.CatFoodServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C539DA81CD4B651009E6798 /* Build configuration list for PBXProject "CatFoodServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C539DB41CD4B651009E6798 /* Debug */,
+				4C539DB51CD4B651009E6798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C539DB61CD4B651009E6798 /* Build configuration list for PBXNativeTarget "CatFoodServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C539DB71CD4B651009E6798 /* Debug */,
+				4C539DB81CD4B651009E6798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C539DA51CD4B651009E6798 /* Project object */;
+}
