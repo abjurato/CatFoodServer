@@ -14,6 +14,9 @@
 		4C539DFE1CD4CA85009E6798 /* CatName.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C539DF21CD4C69D009E6798 /* CatName.mustache */; };
 		4C539E061CD4CC84009E6798 /* PerfectHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */; };
 		4C539E131CD4CD48009E6798 /* CatNameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C539E121CD4CD48009E6798 /* CatNameHandler.swift */; };
+		4C539E2E1CD68A37009E6798 /* FoodListHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C539E2D1CD68A37009E6798 /* FoodListHandler.swift */; };
+		4C539E381CD68A84009E6798 /* FoodList.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 4C539E371CD68A84009E6798 /* FoodList.mustache */; };
+		4C539E3C1CD695E6009E6798 /* FoodList.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C539E371CD68A84009E6798 /* FoodList.mustache */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,7 @@
 			dstPath = webroot;
 			dstSubfolderSpec = 16;
 			files = (
+				4C539E3C1CD695E6009E6798 /* FoodList.mustache in CopyFiles */,
 				4C539DFE1CD4CA85009E6798 /* CatName.mustache in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +102,8 @@
 		4C539DF21CD4C69D009E6798 /* CatName.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CatName.mustache; path = Mustache/CatName.mustache; sourceTree = "<group>"; };
 		4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectHandlers.swift; sourceTree = "<group>"; };
 		4C539E121CD4CD48009E6798 /* CatNameHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatNameHandler.swift; sourceTree = "<group>"; };
+		4C539E2D1CD68A37009E6798 /* FoodListHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListHandler.swift; sourceTree = "<group>"; };
+		4C539E371CD68A84009E6798 /* FoodList.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FoodList.mustache; path = Mustache/FoodList.mustache; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,7 @@
 				4C539DB11CD4B651009E6798 /* CatFoodServer.h */,
 				4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */,
 				4C539E121CD4CD48009E6798 /* CatNameHandler.swift */,
+				4C539E2D1CD68A37009E6798 /* FoodListHandler.swift */,
 				4C539DFC1CD4C98E009E6798 /* Mustache */,
 				4C539DB31CD4B651009E6798 /* Info.plist */,
 			);
@@ -175,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				4C539DF21CD4C69D009E6798 /* CatName.mustache */,
+				4C539E371CD68A84009E6798 /* FoodList.mustache */,
 			);
 			name = Mustache;
 			sourceTree = "<group>";
@@ -332,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C539DF31CD4C69D009E6798 /* CatName.mustache in Resources */,
+				4C539E381CD68A84009E6798 /* FoodList.mustache in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C539E131CD4CD48009E6798 /* CatNameHandler.swift in Sources */,
+				4C539E2E1CD68A37009E6798 /* FoodListHandler.swift in Sources */,
 				4C539E061CD4CC84009E6798 /* PerfectHandlers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
