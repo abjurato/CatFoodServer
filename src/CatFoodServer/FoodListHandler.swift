@@ -12,7 +12,7 @@ import PostgreSQL
 class FoodListHandler: PageHandler {
     let dbHost = "localhost"
     let dbName = "cat_food"
-    let dbUsername = //PUT YOUR SYSTEM USERNAME HERE!
+    let dbUsername = ""//PUT YOUR SYSTEM USERNAME HERE!
     let dbPassword = ""
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
