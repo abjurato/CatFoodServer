@@ -20,62 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C539DBF1CD4B7F0009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8F289BE1BD53CF000367249;
-			remoteInfo = PerfectLibOSX;
-		};
-		4C539DC11CD4B7F0009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8F289C81BD53CF000367249;
-			remoteInfo = PerfectLibOSXTests;
-		};
-		4C539DC31CD4B7F0009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8F28A381BD5633100367249;
-			remoteInfo = PerfectLibiOS;
-		};
-		4C539DCB1CD4B82E009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F842421B1BD966FC001EFF66;
-			remoteInfo = "PerfectServer FastCGI";
-		};
-		4C539DCD1CD4B82E009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8E752DF1BDA8A7600BFC36A;
-			remoteInfo = "PerfectServer HTTP";
-		};
-		4C539DCF1CD4B82E009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F88B06811BDD48DD001FD0CD;
-			remoteInfo = "PerfectServer HTTP App";
-		};
-		4C539DD61CD4B874009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8F28A6E1BD57D8900367249;
-			remoteInfo = PostgreSQL;
-		};
-		4C539DD81CD4B874009E6798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8F28A781BD57D8A00367249;
-			remoteInfo = PostgreSQLTests;
-		};
 		4C539E461CD7EDE6009E6798 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C539E401CD7EDE6009E6798 /* PerfectLib.xcodeproj */;
@@ -152,9 +96,6 @@
 		4C539DAE1CD4B651009E6798 /* CatFoodServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatFoodServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C539DB11CD4B651009E6798 /* CatFoodServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatFoodServer.h; sourceTree = "<group>"; };
 		4C539DB31CD4B651009E6798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PerfectLib.xcodeproj; path = ../../Perfect/PerfectLib/PerfectLib.xcodeproj; sourceTree = "<group>"; };
-		4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PerfectServer.xcodeproj; path = ../../Perfect/PerfectServer/PerfectServer.xcodeproj; sourceTree = "<group>"; };
-		4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PostgreSQL.xcodeproj; path = ../../Perfect/Connectors/PostgreSQL/PostgreSQL.xcodeproj; sourceTree = "<group>"; };
 		4C539DF21CD4C69D009E6798 /* CatName.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CatName.mustache; path = Mustache/CatName.mustache; sourceTree = "<group>"; };
 		4C539E051CD4CC84009E6798 /* PerfectHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectHandlers.swift; sourceTree = "<group>"; };
 		4C539E121CD4CD48009E6798 /* CatNameHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatNameHandler.swift; sourceTree = "<group>"; };
@@ -181,9 +122,6 @@
 		4C539DA41CD4B651009E6798 = {
 			isa = PBXGroup;
 			children = (
-				4C539E581CD7EE06009E6798 /* PostgreSQL.xcodeproj */,
-				4C539E4C1CD7EDF6009E6798 /* PerfectServer.xcodeproj */,
-				4C539E401CD7EDE6009E6798 /* PerfectLib.xcodeproj */,
 				4C539DB01CD4B651009E6798 /* CatFoodServer */,
 				4C539DAF1CD4B651009E6798 /* Products */,
 				4C539E1E1CD4F4B1009E6798 /* dependencies */,
@@ -211,35 +149,6 @@
 			path = CatFoodServer;
 			sourceTree = "<group>";
 		};
-		4C539DBA1CD4B7F0009E6798 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C539DC01CD4B7F0009E6798 /* PerfectLib.framework */,
-				4C539DC21CD4B7F0009E6798 /* PerfectLibOSXTests.xctest */,
-				4C539DC41CD4B7F0009E6798 /* PerfectLib.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4C539DC61CD4B82E009E6798 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C539DCC1CD4B82E009E6798 /* perfectserverfcgi */,
-				4C539DCE1CD4B82E009E6798 /* perfectserverhttp */,
-				4C539DD01CD4B82E009E6798 /* PerfectServer HTTP.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4C539DD21CD4B874009E6798 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C539DD71CD4B874009E6798 /* PostgreSQL.framework */,
-				4C539DD91CD4B874009E6798 /* PostgreSQLTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4C539DFC1CD4C98E009E6798 /* Mustache */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,9 +161,9 @@
 		4C539E1E1CD4F4B1009E6798 /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */,
-				4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */,
-				4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */,
+				4C539E581CD7EE06009E6798 /* PostgreSQL.xcodeproj */,
+				4C539E4C1CD7EDF6009E6798 /* PerfectServer.xcodeproj */,
+				4C539E401CD7EDE6009E6798 /* PerfectLib.xcodeproj */,
 			);
 			name = dependencies;
 			sourceTree = "<group>";
@@ -347,24 +256,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 4C539DBA1CD4B7F0009E6798 /* Products */;
-					ProjectRef = 4C539DB91CD4B7F0009E6798 /* PerfectLib.xcodeproj */;
-				},
-				{
 					ProductGroup = 4C539E411CD7EDE6009E6798 /* Products */;
 					ProjectRef = 4C539E401CD7EDE6009E6798 /* PerfectLib.xcodeproj */;
 				},
 				{
-					ProductGroup = 4C539DC61CD4B82E009E6798 /* Products */;
-					ProjectRef = 4C539DC51CD4B82E009E6798 /* PerfectServer.xcodeproj */;
-				},
-				{
 					ProductGroup = 4C539E4D1CD7EDF6009E6798 /* Products */;
 					ProjectRef = 4C539E4C1CD7EDF6009E6798 /* PerfectServer.xcodeproj */;
-				},
-				{
-					ProductGroup = 4C539DD21CD4B874009E6798 /* Products */;
-					ProjectRef = 4C539DD11CD4B874009E6798 /* PostgreSQL.xcodeproj */;
 				},
 				{
 					ProductGroup = 4C539E591CD7EE06009E6798 /* Products */;
@@ -379,62 +276,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4C539DC01CD4B7F0009E6798 /* PerfectLib.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PerfectLib.framework;
-			remoteRef = 4C539DBF1CD4B7F0009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DC21CD4B7F0009E6798 /* PerfectLibOSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PerfectLibOSXTests.xctest;
-			remoteRef = 4C539DC11CD4B7F0009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DC41CD4B7F0009E6798 /* PerfectLib.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PerfectLib.framework;
-			remoteRef = 4C539DC31CD4B7F0009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DCC1CD4B82E009E6798 /* perfectserverfcgi */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = perfectserverfcgi;
-			remoteRef = 4C539DCB1CD4B82E009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DCE1CD4B82E009E6798 /* perfectserverhttp */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = perfectserverhttp;
-			remoteRef = 4C539DCD1CD4B82E009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DD01CD4B82E009E6798 /* PerfectServer HTTP.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "PerfectServer HTTP.app";
-			remoteRef = 4C539DCF1CD4B82E009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DD71CD4B874009E6798 /* PostgreSQL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PostgreSQL.framework;
-			remoteRef = 4C539DD61CD4B874009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4C539DD91CD4B874009E6798 /* PostgreSQLTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PostgreSQLTests.xctest;
-			remoteRef = 4C539DD81CD4B874009E6798 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		4C539E471CD7EDE6009E6798 /* PerfectLib.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;

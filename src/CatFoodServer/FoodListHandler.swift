@@ -8,12 +8,21 @@
 
 import PerfectLib
 import PostgreSQL
+#if os(Linux)
+    import Glibc
+#else
+    import Darwin
+#endif
 
 class FoodListHandler: PageHandler {
-    let dbHost = "localhost"
-    let dbName = "cat_food"
-    let dbUsername = ""//PUT YOUR SYSTEM USERNAME HERE!
-    let dbPassword = ""
+    private func getEnvVar(name: String) -> String {
+        return String.fromCString(getenv(name)) ?? ""
+    }
+    
+    lazy var dbHost:String = self.getEnvVar("DATABASE_URL")
+    lazy var dbName:String = self.getEnvVar("DATABASE_NAME")
+    lazy var dbUsername:String = self.getEnvVar("DATABASE_USER")
+    lazy var dbPassword:String = self.getEnvVar("DATABASE_PASS")
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
         
