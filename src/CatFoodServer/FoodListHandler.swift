@@ -19,7 +19,7 @@ class FoodListHandler: PageHandler {
         return String.fromCString(getenv(name)) ?? ""
     }
     
-    lazy var dbHost:String = self.getEnvVar("DATABASE_URL")
+    lazy var dbHost:String = self.getEnvVar("DATABASE_HOST")
     lazy var dbName:String = self.getEnvVar("DATABASE_NAME")
     lazy var dbUsername:String = self.getEnvVar("DATABASE_USER")
     lazy var dbPassword:String = self.getEnvVar("DATABASE_PASS")
